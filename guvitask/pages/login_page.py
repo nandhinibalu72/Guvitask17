@@ -9,7 +9,7 @@ class LoginPage(BasePage):
         self.password_input = "//input[@id=':r1:']"
         self.login_button = "//button[@type='submit']"
         self.profile_button = "//*[@id='profile-click-icon']"
-        self.error_msg = "//*[@id=':r1:-helper-text']"  # update if needed
+        self.error_msg = "//*[@id=':r1:-helper-text']"
         self.logout = "//*[@id='root']/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[4]/div[3]"
 
     def load(self, url):
